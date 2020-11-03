@@ -1,18 +1,19 @@
 body{
     background-color: lightseagreen;
-    background-image: url("image\ one.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    color: rgb(8, 68, 70);
+    color: black;
 }
 .logo{
     text-indent: -9999999px;
     background: url("kemri\ logo.jpeg");
-    width: 466px;
-    height: 460px;
+    width: 260px;
+    height: 260px;
     background-repeat: no-repeat;
     background-position: center;
    
 }
+
+
 
 /*padding is space between the sentences*/
