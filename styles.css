@@ -13,7 +13,26 @@ body{
     background-position: center;
    
 }
+.TopNav{
 
+    background-color: rgb(10, 91, 129);
+    width: fit-content;
+    overflow: auto;
+    }
+.TopNav a{
+        float: left;
+        display: block;
+        color: rgb(151, 204, 27);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: solid;
+        font size:17px;
+    }
+
+    .covid{
+        width: 600px;
+        height: 400px;
+    }
 
 
 /*padding is space between the sentences*/
