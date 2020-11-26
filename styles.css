@@ -54,6 +54,22 @@ body{
         text-align: center;
     }
 
+    a {
+        background-color: rgb(136, 149, 173);
+        color: cornsilk;
+        padding: 5px;
+        text-decoration: none;
+        font-weight: 800;
+        border-radius: 5px;
+
+    }
+
+    a:hover{
+        background-color: cornsilk;
+        color:  rgb(136, 149, 173);
+        padding: 10px;
+    }
+
 
 
 
