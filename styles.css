@@ -1,5 +1,5 @@
 body{
-    background-color: lightseagreen;
+    background-color: rgb(57, 141, 137);
     background-repeat: no-repeat;
     background-position: center;
     color: black;
@@ -15,14 +15,14 @@ body{
 }
 .TopNav{
 
-    background-color: rgb(10, 91, 129);
+    background-color: gray;
     width: fit-content;
     overflow: auto;
     }
 .TopNav a{
         float: left;
         display: block;
-        color: rgb(151, 204, 27);
+        color: black;
         text-align: center;
         padding: 14px 16px;
         text-decoration: solid;
@@ -30,9 +30,47 @@ body{
     }
 
     .covid{
-        width: 600px;
-        height: 400px;
+        width: 500px;
+        height: 300px;
     }
+
+    h1{
+        font: bold;
+        text-align: center;
+    }
+    
+    h2{
+        font: bold;
+        text-align: center;
+    }
+
+    h3{
+        font: bold;
+        text-align: center;
+    }
+
+    h4{
+        font: bold;
+        text-align: center;
+    }
+
+    a {
+        background-color: rgb(136, 149, 173);
+        color: cornsilk;
+        padding: 5px;
+        text-decoration: none;
+        font-weight: 800;
+        border-radius: 5px;
+
+    }
+
+    a:hover{
+        background-color: cornsilk;
+        color:  rgb(136, 149, 173);
+        padding: 10px;
+    }
+
+
 
 
 /*padding is space between the sentences*/
