@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <title> Contact Us </title>
+        
+        <!--Creating the website in different sizes and designs-->
+        <meta name="viewport" contents="width-device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+        <meta http-equiv="X-UA-Compatible" contents="IE=edge,chrome=1">
+
+        <meta name="HandheldFriendly" content="true">
+
+        <!--Below is the stylesheet and diffrent pages-->
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+
+        <link rel="icon" href="kemri logo.jpeg" type="image/icon type">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/brands.min.css">
+
+        <script>
+            /* Toggle between adding and removing the sizes and design class to topnav when the user clicks on the icon */
+            function myFunction() {
+                var x = document.getElementById("myTopNav");
+                if (x.className === "TopNav") {
+                    x.className += "responsive";
+                } else {
+                    x.className = "TopNav"
+                }
+            }
+        </script>
+
+    </head>
+    <body>
+       
+        
+        <h2 class = "logo"> Logo here </h2>
+     
+             
+     
+     
+         <!--hyperlinks to get into different pages-->
+     
+         <div class="TopNav" id="myTopNav">
+     
+             <a href="index.html">Home</a> <!--# identifies the link of the own page-->
+             <a href="Covid-19.html">Covid-19</a>
+             <a href="aboutus.html">About us</a>
+             <a href="Gallery.html">Gallery</a>
+             <a href="#">Contact us</a>
+             <a href="javascript:void(0);" class = "icon" onclick="myFunction()">
+                 <i class="fa fa-bars"></i>
+             </a>
+     
+         </div>
+
+         <h1>WE'D LOVE TO HEAR FROM YOU... TALK TO US </h1>
+         
+         <h2>Location </h2>
+
+         <h3>Located in Nairobi</h3>
+
+         <p> Kenya Medical Research Institute (KEMRI) is a State Corporation established through the Science and Technology (Amendment) Act of 1979, <br>
+             which has since been amended to Science, Technology and Innovation Act 2013. <br>
+
+            The 1979 Act established KEMRI as a National body responsible for carrying out health research in Kenya <br>
+            
+             
+            
+            E-mail: Director@kemri.org <br>
+            
+            Call us: <br>
+            
+            +254 722205901 <br>
+
+        </p>
+
+        <form action="Submit.html" method="POST">
+
+            <!--"required" will not let the user carry on without filling the fields-->
+            
+                        Your Name: <input type="text" size="70"  name="Fname"  required  placeholder="Full Name"/> <br>
+            
+                        Email: <input type="text" size="100" name="lname" required  placeholder="email"/> <br>
+    
+                        Subject: <input type="text" size="100" name="subject" required  /> <br>
+    
+                        Message: <input type="text" size="100"  name="message" required  placeholder="Enter text here"/> <br>     
+                
+                        <input type="submit" value="Submit" name="Submit"/>     
+                
+                        <input type="reset" value="Cancel" name="Reset" />
+    
+        </form>
+    </body>
+    
+    <style>
+        .footer {
+            position: bottom;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: gray;
+            color: whitesmoke;
+            text-align: center;
+        }
+    </style>
+
+    <div class="footer">
+        
+        <p>Want to know more about KEMRI?
+            Reach us at Tel:+254 722205901 or director@kemri.org</p>
+            
+        <h2> KEMRI REGIONAL OFFICES</h2>
+        <P>Kenya Medical Research Institute
+            P.O. Box 54840 00200 Off Mbagathi Road. Nairobi, Kenya.</P>
+            <p>Tel: +254 722205901</p>
+
+            <p> Center for Geographic Medicine Research, Coast
+                P.O. Box 230-80108, Kilifi Kenya</p>
+                <p>Tel: +254 709 750</p>
+            
+                <p>Center for Global Health Research (CGHR)
+                    P.O. Box: 1578 - 40100, Kisumu, Kenya </p>
+                    <p>Tel: +254 (20) 22923</p>
+                    
+                <p>Center for Infectious and Parasitic Diseases Control Research (CIPDCR)
+                    P.O. Box: 3 - 50400, Busia, Kenya</p>
+                    <p>Tel: +254 (020) 2005948</p>
+                
+
+
+
+    </div>
+</html>
