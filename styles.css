@@ -71,7 +71,7 @@ body{
     }
 /*padding is space between the sentences*/
 
- /* Format the form fields
+ /* Format of the form fields
 input type "text" means what kind of type you have given your form.. eg password or text*/
 
 input[type=text] {
