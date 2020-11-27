@@ -69,8 +69,51 @@ body{
         color:  rgb(136, 149, 173);
         padding: 10px;
     }
-
-
-
-
 /*padding is space between the sentences*/
+
+ /* Format of the form fields
+input type "text" means what kind of type you have given your form.. eg password or text*/
+
+input[type=text] {
+    width: 100%; /*how long do you want it to be* eg 100%.. full screen*/
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    background-color: rgb(252, 252, 252);
+    color: black;
+  }
+  
+  input[type=text]:focus{
+    border:5px solid rgb(0, 162, 255);
+  }
+  
+    
+  /* Format the buttons*/
+  
+  input[type=submit]{
+    background-color:rgb(33, 66, 94);
+    color: linen;
+    width:100 px;
+    padding: 10px 22px;
+    border:5px solid rgb(0, 162, 255);
+  } 
+  
+  input[type=reset]{
+    background-color:  rgb(33, 66, 94);
+    color: linen;
+    width: 100px;
+    padding: 10px 22px;
+    border:5px solid rgb(0, 162, 255);
+  } 
+  
+  input[type=submit]:hover{
+    background-color:whitesmoke;
+    color:black;
+    padding: 10px;
+   
+  }
+  
+  input[type=reset]:hover{
+    background-color:whitesmoke;
+    color:black;
+    padding: 10px;
